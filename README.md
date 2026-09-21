@@ -127,8 +127,6 @@ Los resultados empleados en la memoria son los almacenados en `new_results/`, y 
 
 El código permite reejecutar todos los experimentos. Las semillas se fijan de forma determinista, de modo que cualquier reejecución parte del mismo conjunto de 31 semillas.
 
-**Limitación conocida.** Las ejecuciones de CMOPSO y MOPSO-CD no son deterministas: dos ejecuciones con la misma semilla producen resultados distintos. Una reejecución de estos dos algoritmos, por tanto, produce resultados equivalentes en distribución pero no idénticos a los almacenados. Las estadísticas agregadas sobre las 31 semillas, que son las que se reportan en la memoria, no se ven afectadas de forma apreciable por este comportamiento.
-
 ---
 
 ## Referencias
